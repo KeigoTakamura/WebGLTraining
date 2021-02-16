@@ -20,5 +20,5 @@ function main(){
     ctx.closePath();
 
     ctx.fillStyle = 'rgba(255,0,0,1.0)';
-    ctx.fill();
+    ctx.stroke();
 }
