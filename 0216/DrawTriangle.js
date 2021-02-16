@@ -19,6 +19,6 @@ function main(){
     
     ctx.closePath();
 
-    ctx.fillStyle = 'rgba(0,0,255,1.0)';
+    ctx.fillStyle = 'rgba(255,0,0,1.0)';
     ctx.fill();
 }
