@@ -4,7 +4,7 @@ function main(){
     var VSHAADER_SOURCE = 
     'void main() {\n ' +
     'gl_Position =  vec4(0.0,0.0,0.0,1.0); \n' +
-    'gl_PointSize = 10.0;\n' +
+    'gl_PointSize = 100.0;\n' +
     '}\n';
 
     var FSHA_SOURCE =
@@ -22,7 +22,7 @@ function main(){
         console.log('Shaderのrefresh');
         return;
     }    
-    gl.clearColor(1.0,0, 0.0, 0.9);
+    gl.clearColor(0.0,0, 0.0, 0.9);
     //Canvas
     gl.clear(gl.COLOR_BUFFER_BIT);
 
